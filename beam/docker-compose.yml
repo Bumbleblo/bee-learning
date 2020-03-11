@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  beam:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
