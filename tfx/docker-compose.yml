@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  tfx:
+    build:
+      dockerfile: docker/Dockerfile
+      context: . 
+    volumes:
+      - "./mnt/:/root"
+      - ".:/home"
