@@ -8,3 +8,5 @@ services:
     volumes:
       - "./mnt/:/root"
       - ".:/home"
+    ports:
+    - "8080:8080"

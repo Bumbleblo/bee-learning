@@ -1,0 +1,8 @@
+*.db
+*.swp
+*.pyc
+*.log
+*.gz
+*.pbtxt
+*.pb
+stats_tfrecord

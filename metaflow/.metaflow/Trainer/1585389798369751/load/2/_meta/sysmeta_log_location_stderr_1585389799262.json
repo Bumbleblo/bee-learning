@@ -1,0 +1,1 @@
+{"flow_id": "Trainer", "run_number": "1585389798369751", "step_name": "load", "task_id": "2", "field_name": "log_location_stderr", "type": "log_path", "value": "{\"ds_type\": \"local\", \"location\": \"/home/felipe/git/bee-learning/metaflow/.metaflow/Trainer/1585389798369751/load/2/0.stderr.log\", \"attempt\": 0}", "user_name": "felipe", "ts_epoch": 1585389799262}

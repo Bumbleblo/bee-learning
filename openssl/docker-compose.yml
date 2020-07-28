@@ -1,0 +1,18 @@
+version: "3.7"
+
+
+services:
+  registry:
+    image: registry:2
+    environment:
+      REGISTRY_HTTP_TLS_CERTIFICATE: /certs/host.cert
+      REGISTRY_HTTP_TLS_KEY: /certs/host.key
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+    ports:
+    - 443:443
+    - 5000:5000
+    volumes:
+    - ".:/certs"
+    - "./auth:/auth"
